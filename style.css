@@ -1,3 +1,176 @@
-/*
-  CSS File
-*/
+/**/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/** Screen reader text ***/
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+header {
+  background-color: rebeccapurple;
+}
+
+
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+div{
+
+  border: 0px thin solid #f1f1f1;
+  text-align: center;
+}
+
+.flex1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 50% 25%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: darkgray;
+  height: 50px;
+}
+
+.logoimg {
+  display: grid;
+  width: 40px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: bisque;
+}
+
+
+
+.flex1childe1 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+
+.childe2 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+}
+
+.searchbar {
+  background-color: lightgrey;
+  width: 100%;
+  text-align: center;
+}
+
+.flex2 h1{
+  font-size: 50px;
+}
+
+.flex2 p {
+  font-size: 15px;
+}
+
+.flex3 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  
+}
+.flex3 {
+ 
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.flex4 b{
+  font-size: 30px;
+  font-weight: 600px;
+}
+
+.flex4 p {
+  font-size: 10px;
+}
+
+.flex5 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  
+}
+
+.flex5{
+margin-top: 10px;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+}
+
+
+.flex6 p {
+  
+  margin-top: 60px;
+}
+
+.flex7 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto auto;
+}
+
+.flex7 {
+margin-top: 30px;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+}
+
+a:hover {
+  color: brown;
+}
+
+.flex10 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 25% 25% 25% 25%;
+ font-size: 20px;
+}
+
+.flex11 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+ background-color: darkgrey;
+}
+
